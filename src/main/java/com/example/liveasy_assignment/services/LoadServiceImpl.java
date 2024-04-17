@@ -72,6 +72,7 @@ public class LoadServiceImpl implements LoadService {
             loadDao.save(load);
             return ResponseEntity.ok("Updated");
         }
+
         return ResponseEntity.ok("Not Found");
     }
 
