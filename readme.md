@@ -33,3 +33,9 @@ The API should have the following endpoints:
 4. PUT /load/{loadId}
 5. DELETE /load/{loadId}
 6. GET /home
+
+## Development
+1. Fork this repository.
+2. Clone the forked repository.
+3. Modify the application.properties file to connect to your PostgreSQL database.
+4. Implement the API.
