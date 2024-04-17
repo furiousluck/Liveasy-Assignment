@@ -34,6 +34,21 @@ The API should have the following endpoints:
 5. DELETE /load/{loadId}
 6. GET /home
 
+## Sample Data
+```json
+{
+	"loadingPoint": "jaipur",
+	"unloadingPoint": "delhi",
+	"productType": "chemicals",
+	"truckType": "canter",
+	"noOfTrucks": "1",
+	"weight": "100",
+    "comment":"",
+	"shipperID" : "188d704e-5d44-4717-9382-4c9c98894e21",
+	"date" : "02-01-2023"
+}
+```
+
 ## Development
 1. Fork this repository.
 2. Clone the forked repository.
