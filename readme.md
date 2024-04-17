@@ -27,12 +27,15 @@ A load has the following attributes:
 
 ## API
 The API should have the following endpoints:
-1. POST /load
-2. GET /loads/{shipperID}
-3. GET /load/{loadId}
-4. PUT /load/{loadId}
-5. DELETE /load/{loadId}
-6. GET /home
+
+```
+1. POST /load  // Add a load
+2. GET /loads/{shipperID} // Get all loads with the given shipperID
+3. GET /load/{loadId} // Get a load by ID
+4. PUT /load/{loadId} // Update a load by ID
+5. DELETE /load/{loadId} // Delete a load by ID
+6. GET /home //get all loads
+```
 
 ## Sample Data
 ```json
